@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 
 const PostsList = () => {
     return (
-      <div id="posts-list">    
+      <div id="posts-container">    
         <h2 id="posts-list-title">Posts</h2>
 
         <div className="row">

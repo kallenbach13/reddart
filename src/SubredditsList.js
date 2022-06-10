@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 
 const SubredditsList = () => {
     return (
-      <div id="subreddits-list">    
+      <div id="subreddits-container">    
         <h2 id="subreddits-list-title">Subreddits</h2>
 
-        <ul>
+        <ul id="subreddits-list">
             <button className='btn' name='Pixel-Art' value='Pixel-Art'> 
               Pixel Art
             </button>
