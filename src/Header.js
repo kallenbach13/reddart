@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
   return (
     <div className="nav-bar">    
-      <h2 id="title">Little Reddit</h2>
+      <h2 id="title">Reddart</h2>
     </div>
   );
 }
