@@ -35,7 +35,7 @@ const MainContainer = () => {
         </div>
       </div>
 
-      <div id="subreddits-container">    
+      <div id="subreddits-container" class="sticky-top">    
         <h2 id="subreddits-list-title">Subreddits</h2>
 
         <ul id="subreddits-list">
