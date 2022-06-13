@@ -6,6 +6,8 @@ function shortenSelfText(text, limit) {
 	return text.substring(0, short);
 }
 
+// Might add a shortenTitle function as well in the future. Some of the post titles on Reddit can get a bit longwinded.
+
 
 function Post(props) {
 
@@ -17,15 +19,18 @@ function Post(props) {
 			<h3>{props.post.title}</h3>
 			<img src={image} alt=" "/>
 			<p>{shortenSelfText(props.post.selftext, 100)}</p>
+
+			<hr>
+			</hr>
 			<a href={"https://reddit.com" + props.post.permalink} target='_blank' rel="noreferrer" class="btn">
 				Go to Reddit link
 			</a>
 			<hr>
 			</hr>
-			<span class="author">Author: {props.post.author} &nbsp; &nbsp; Comments: {props.post.num_comments}</span>
-			<span class="score">Score: {props.post.score}</span>
-		
 
+			<p>Posted by {props.post.author}</p>
+			<p>Comments: {props.post.num_comments}</p>
+			<p>Upvotes: {props.post.score}</p>
 		</div>
 	)
 }
