@@ -27,7 +27,7 @@
 
 #posts-container {
   width: 80%;
-  background-color: lightgray;
+  background-color: #f0f0f0;
   padding-top: 10px;
   display: flex;
   flex-direction: row;
@@ -46,4 +46,10 @@
 #subreddits-list {
   display: flex;
   flex-direction: column;
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
 }
