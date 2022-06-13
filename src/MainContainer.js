@@ -1,6 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import PostsList from './PostsList'
-import SubredditsList from './SubredditsList';
 import Post from './Post';
 
 const MainContainer = () => {
@@ -40,7 +38,7 @@ const MainContainer = () => {
 
         <ul id="subreddits-list">
 
-          <button className='btn' name='Pixel-Art' value='art' onClick={e => setSubreddit(e.target.value)}> 
+          <button className='btn' name='Art' value='art' onClick={e => setSubreddit(e.target.value)}> 
             Art
           </button>
 
