@@ -64,6 +64,7 @@
   margin: 15px;
   padding-top: 5px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .image-item {

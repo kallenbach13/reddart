@@ -24,7 +24,7 @@ function Post(props) {
 
 	return(
 
-		<div className="col-sm-3 post-card">
+		<div className="col-sm-3 post-card" onClick={()=> window.open("https://reddit.com" + props.post.permalink, "_blank")}>
 			<h3>{props.post.title}</h3>
 			<p>Posted by {props.post.author}</p>
 			<img src={image} className="image-item" alt=" "/>
