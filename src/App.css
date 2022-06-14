@@ -38,7 +38,7 @@
 }
 
 #subreddits-container {
-  background-color: blue;
+  background-color: gray;
   width: 15%;
   height: 400px;
   padding-top: 10px;
@@ -60,7 +60,7 @@
   justify-content: space-around;
   align-items: center;
   width: 300px;
-  background-color: red;
+  background-color: gray;
   margin: 15px;
   padding-top: 5px;
   border-radius: 5px;
