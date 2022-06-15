@@ -23,15 +23,11 @@ const MainContainer = () => {
   return (
     <div id="main-container">
 
-      <div id="posts-container">    
-          <h2 id="posts-list-title">Posts</h2>
-
-          <div className="row">
-            {
-              (posts != null) ? posts.map((post, index) => 
-              <Post key={index} post={post.data} />) : ""
-            }
-          </div>
+      <div className="row" id="posts-container">
+        {
+          (posts != null) ? posts.map((post, index) => 
+          <Post key={index} post={post.data} />) : ""
+        }
         </div>
 
     <SubredditContainer setSubreddit={setSubreddit}/>

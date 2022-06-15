@@ -1,21 +1,12 @@
 import React from 'react';
 
-function shortenSelfText(text, limit) {
+const shortenSelfText = (text, limit) => {
 	const short = text.indexOf(' ', limit);
 	if(short === -1) return text;
 	return text.substring(0, short);
 }
 
 // Might add a shortenTitle function as well in the future. Some of the post titles on Reddit can get a bit longwinded.
-
-/*<hr>
-</hr>
-<a href={"https://reddit.com" + props.post.permalink} target='_blank' rel="noreferrer" class="btn">
-	Go to Reddit link
-</a>
-<hr>
-</hr>
-*/
 
 
 function Post(props) {
