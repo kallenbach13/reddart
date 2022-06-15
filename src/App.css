@@ -25,6 +25,8 @@
   width: 100%;
 }
 
+/* Posts Section */
+
 #posts-container {
   width: 80%;
   padding-top: 10px;
@@ -71,6 +73,8 @@
   border-radius: 12px;
 }
 
+/* Subreddits Section */
+
 #comments-and-upvotes-container {
   display: flex;
   flex-direction: row;
@@ -83,7 +87,7 @@
 #subreddits-container {
   background-color: #1DA1F2;
   width: 15%;
-  height: 400px;
+  height: 620px;
   padding-top: 10px;
   margin-left: 30px;
   border-radius: 10px;
@@ -94,6 +98,7 @@
 
 #subreddits-title {
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 #subreddits-list {
@@ -105,5 +110,97 @@
 }
 
 .subreddit-button {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+/* Individual Subreddit Buttons */
+
+#art-button{
+  background-color: red;
+  color: white;
+}
+#art-button:hover{
+  background-color: white;
+  color: black;
+}
+
+#pixelart-button{
+  background-color: orange;
+  color: white;
+}
+#pixelart-button:hover{
+  background-color: white;
+  color: black;
+}
+
+#watercolor-button{
+  background-color: yellow;
+  color: black;
+}
+#watercolor-button:hover{
+  background-color: white;
+  color: black;
+}
+
+#analog-button{
+  background-color: green;
+  color: white;
+}
+#analog-button:hover{
+  background-color: white;
+  color: black;
+}
+
+#graffiti-button{
+  background-color: turquoise;
+  color: white;
+}
+#graffiti-button:hover{
+  background-color: white;
+  color: black;
+}
+
+#sculpture-button{
+  background-color: blue;
+  color: white;
+}
+#sculpture-button:hover{
+  background-color: white;
+  color: black;
+}
+
+#oilpainting-button{
+  background-color: navy;
+  color: white;
+}
+#oilpainting-button:hover{
+  background-color: white;
+  color: black;
+}
+
+#drawing-button{
+  background-color: purple;
+  color: white;
+}
+#drawing-button:hover{
+  background-color: white;
+  color: black;
+}
+
+#conceptart-button{
+  background-color: pink;
+  color: black;
+}
+#conceptart-button:hover{
+  background-color: white;
+  color: black;
+}
+
+#sketches-button{
+  background-color: gold;
+  color: white;
+}
+#sketches-button:hover{
+  background-color: white;
+  color: black;
 }

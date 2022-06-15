@@ -36,6 +36,18 @@ const SubredditContainer = (props) => {
                     Oil Painting
                 </button>
 
+                <button className='btn subreddit-button' id="drawing-button" name='drawing' value='drawing' onClick={e => props.setSubreddit(e.target.value)}> 
+                    Drawing
+                </button>
+
+                <button className='btn subreddit-button' id="conceptart-button" name='conceptart' value='conceptart' onClick={e => props.setSubreddit(e.target.value)}> 
+                    Concept Art
+                </button>
+
+                <button className='btn subreddit-button' id="sketches-button" name='sketches' value='sketches' onClick={e => props.setSubreddit(e.target.value)}> 
+                    Sketches
+                </button>
+
         </div>
 
       </div>
