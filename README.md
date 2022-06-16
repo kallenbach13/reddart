@@ -27,9 +27,9 @@ This should run the app and open a window in your default browser at [http://loc
 #### 2. I want to be able to dynamically display the name of the current subreddit at the top of the PostsContainer Component.
 #### 3. I want to make videos and galleries visible.
 
-If you have any tips on how to go about achieving any of these goals or any suggestion on what I should change/add/remove, feel free to let me know.
+If you have any tips on how to go about achieving any of these goals or any suggestions on what I should change/add/remove on the app, feel free to let me know.
 <br>
 #### My Links:
 [Personal Portfolio](https://kallenbach13.github.io/personal-portfolio-website/)
-<br>
+<br> 
 [Github](https://github.com/kallenbach13)
