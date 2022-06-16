@@ -6,7 +6,7 @@
 
 This is an app that dynamically pulls the top posts from various art-related subreddits from the Reddit API.
 
-As an art-lover and frequent reddit user, I thought it would be cool to make a curated reddit app that a user can quickly browse through various art subreddits and check out all the different works.
+As an art-lover and frequent reddit user, I thought it would be cool to make a curated reddit app that allows a user to quickly browse through various art subreddits and check out all the different works.
 
 
 ## Instructions
