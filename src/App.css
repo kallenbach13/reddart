@@ -92,15 +92,7 @@
   margin-right: 8px; 
 }
 
-#comments-container {
-  display: flex;
-  flex-direction: row;
-  width: 50%;
-  justify-content: center;
-  align-items: center;
-}
-
-#score-container {
+.comments-and-score {
   display: flex;
   flex-direction: row;
   width: 50%;

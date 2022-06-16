@@ -21,11 +21,11 @@ function Post(props) {
 			<img src={image} className="image-item" alt=" "/>
 			<p>{shortenText(props.post.selftext, 100)}</p>
 			<div id="comments-and-score-container">
-				<div id="score-container">
+				<div className="comments-and-score">
 					<img src={require("./assets/upvote.png")} className="comments-and-score-images" alt=" "></img>
 					<p className="comments-and-score-text">{props.post.score}</p>
 				</div>
-				<div id="comments-container">
+				<div className="comments-and-score">
 					<img src={require("./assets/comment-box.png")} className="comments-and-score-images" alt=" "></img>
 					<p className="comments-and-score-text">{props.post.num_comments}</p>
 				</div>
