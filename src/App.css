@@ -55,10 +55,12 @@
 
 .post-title {
   font-size: 1.5em;
+  color: #555555;
 }
 
 .author-text {
   font-size: .9em;
+  color: #555555
 }
 
 .image-item {
@@ -81,10 +83,11 @@
 .comments-and-score-text {
   font-size: 1em;
   padding-top: 15px;
+  color: #555555;
 }
 
 .comments-and-score-images {
-  width: 12%;
+  width: 14%;
   height: 25px;
   margin-right: 8px; 
 }
@@ -211,7 +214,7 @@
 }
 
 #conceptart-button{
-  background-color: pink;
+  background-color: #FF69B4;
   color: black;
 }
 #conceptart-button:hover{
@@ -220,7 +223,7 @@
 }
 
 #sketches-button{
-  background-color: gold;
+  background-color: #E6E6FA;
   color: white;
 }
 #sketches-button:hover{
