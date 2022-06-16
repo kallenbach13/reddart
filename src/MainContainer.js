@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import Post from './Post';
+import PostsContainer from './PostsContainer';
 import SubredditContainer from './SubredditContainer';
 
 const MainContainer = () => {
@@ -22,15 +22,8 @@ const MainContainer = () => {
 
   return (
     <div id="main-container">
-
-      <div className="row" id="posts-container">
-        {
-          (posts != null) ? posts.map((post, index) => 
-          <Post key={index} post={post.data} />) : ""
-        }
-        </div>
-
-    <SubredditContainer setSubreddit={setSubreddit}/>
+      <PostsContainer posts={posts} setPosts={setPosts} />
+      <SubredditContainer setSubreddit={setSubreddit}/>
     </div>
   );
 }
