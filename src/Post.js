@@ -6,9 +6,6 @@ const shortenText = (text, limit) => {
 	return text.substring(0, short) + "...";
 }
 
-// Might add a shortenTitle function as well in the future. Some of the post titles on Reddit can get a bit longwinded.
-
-
 function Post(props) {
 
 	let image = props.post.url
