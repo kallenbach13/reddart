@@ -13,7 +13,7 @@ Short description of why I made the app.
 
 The following commands are meant to be typed into the terminal at the app's directory.
 
-###### 1. npm install
+##### 1. npm install
 
 This will install all modules and dependencies needed to run the app.
 
