@@ -30,6 +30,6 @@ This should run the app and open a window in your default browser at [http://loc
 If you have any tips on how to go about achieving any of these goals or any suggestions on what I should change/add/remove on the app, feel free to let me know.
 <br>
 #### My Links:
-[Personal Portfolio](https://kallenbach13.github.io/personal-portfolio-website/)
+[Personal Portfolio](https://isakkallenbach.netlify.app/)
 <br> 
 [Github](https://github.com/kallenbach13)
